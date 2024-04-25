@@ -28,7 +28,9 @@ Eu escolhi o segmento de loja física do Boticário como cenário imaginário.
 Segue as informações detalhadas sobre cada tabela, incluindo seus campos, tipos de dados, chaves primárias, chaves estrangeiras e qualquer outra restrição relevante:
 
 *Tabela: tb_cliente*
+
 Descrição: Armazena informações sobre os clientes.
+
 Campos:
 id_cliente (chave primária, inteiro): Identificador único do cliente.
 nome (texto): Nome do cliente.
@@ -37,7 +39,9 @@ endereco (texto): Endereço do cliente.
 doc_ident (inteiro): Número de documento de identificação do cliente.
 
 *Tabela: tb_loja*
+
 Descrição: Contém informações sobre as lojas.
+
 Campos:
 id_loja (chave primária, inteiro): Identificador único da loja.
 nome_loja (texto): Nome da loja.
@@ -45,7 +49,9 @@ telefone (inteiro): Número de telefone da loja.
 email (texto): Endereço de e-mail da loja.
 
 *Tabela: tb_vendedor*
+
 Descrição: Armazena informações sobre os vendedores.
+
 Campos:
 id_vendedor (chave primária, inteiro): Identificador único do vendedor.
 nome_vendedor (texto): Nome do vendedor.
@@ -54,7 +60,9 @@ email (texto): Endereço de e-mail do vendedor.
 loja_id_loja (chave estrangeira, inteiro): ID da loja à qual o vendedor está associado.
 
 *Tabela: tb_pedido*
+
 Descrição: Registra informações sobre os pedidos.
+
 Campos:
 id_pedido (chave primária, inteiro): Identificador único do pedido.
 valor (decimal): Valor do pedido.
@@ -64,28 +72,36 @@ tb_vendedor_id_vendedor (chave estrangeira, inteiro): ID do vendedor associado a
 tb_vendedor_loja_id_loja (chave estrangeira, inteiro): ID da loja à qual o vendedor está associado.
 
 *Tabela: tb_programa_pontos*
+
 Descrição: Armazena informações sobre os programas de pontos.
+
 Campos:
 id_programa (chave primária, inteiro): Identificador único do programa de pontos.
 nome_programa (texto): Nome do programa de pontos.
 taxa_conversao (decimal): Taxa de conversão de pontos.
 
 *Tabela: tb_produto*
+
 Descrição: Contém informações sobre os produtos.
+
 Campos:
 id_produto (chave primária, inteiro): Identificador único do produto.
 nome_produto (texto): Nome do produto.
 valor (decimal): Valor do produto.
 
 *Tabela: tb_estoque*
+
 Descrição: Mantém informações sobre o estoque de produtos nas lojas.
+
 Campos:
 id_produto (chave estrangeira, inteiro): ID do produto.
 qtd_produtos (inteiro): Quantidade de produtos em estoque.
 tb_loja_id_loja (chave estrangeira, inteiro): ID da loja.
 
 *Tabela: tb_pontos_cliente*
+
 Descrição: Registra os pontos ganhos pelos clientes.
+
 Campos:
 pontos_id (chave primária, inteiro): Identificador único do registro de pontos.
 pontos_gerados (decimal): Quantidade de pontos gerados.
@@ -94,7 +110,9 @@ cliente_id_cliente (chave estrangeira, inteiro): ID do cliente.
 programa_pontos_id_programa (chave estrangeira, inteiro): ID do programa de pontos.
 
 *Tabela: tb_endereco*
+
 Descrição: Armazena informações sobre os endereços dos clientes.
+
 Campos:
 rua (texto): Nome da rua.
 numero (inteiro): Número do endereço.
@@ -104,7 +122,9 @@ estado (texto): Nome do estado.
 cliente_id_cliente (chave estrangeira, inteiro): ID do cliente associado ao endereço.
 
 *Tabela: tb_pedido_has_tb_produto*
+
 Descrição: Associa produtos aos pedidos.
+
 Campos:
 tb_pedido_id_pedido (chave estrangeira, inteiro): ID do pedido.
 tb_pedido_tb_cliente_id_cliente (chave estrangeira, inteiro): ID do cliente associado ao pedido.
