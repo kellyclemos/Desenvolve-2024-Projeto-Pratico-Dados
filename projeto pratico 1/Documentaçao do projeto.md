@@ -132,3 +132,5 @@ tb_produto_id_produto (chave estrangeira, inteiro): ID do produto
 
 
 **Espero que esta documentação seja útil para compreender a estrutura e o propósito de cada tabela neste banco de dados.**
+
+![Projeto Desenvolve](https://github.com/kellyclemos/Desenvolve-2024-Projeto-Pratico-Dados/assets/104221265/d1038057-1391-453c-8fa1-c9a63dcb852a)
