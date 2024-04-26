@@ -147,9 +147,8 @@ Nessa etapa, o foco foi transformar as abstrações do modelo lógico em uma rep
 
 ### Autoria
 
-Kelly Lemos
 
-[LinkedIn](https://www.linkedin.com/in/kellycvlemos/)
+Kelly Lemos - [LinkedIn](https://www.linkedin.com/in/kellycvlemos/)
 
 
   
