@@ -134,3 +134,21 @@ tb_produto_id_produto (chave estrangeira, inteiro): ID do produto
 **Espero que esta documentação seja útil para compreender a estrutura e o propósito de cada tabela neste banco de dados.**
 
 ![Projeto Desenvolve](https://github.com/kellyclemos/Desenvolve-2024-Projeto-Pratico-Dados/assets/104221265/d1038057-1391-453c-8fa1-c9a63dcb852a)
+
+## Modelo Físico
+
+Nessa etapa, o foco foi transformar as abstrações do modelo lógico em uma representação concreta no modelo físico do banco de dados. Isso envolveu detalhar os tipos de dados para cada campo, como strings, inteiros ou decimais, e aplicar as restrições necessárias, como chaves primárias, estrangeiras e únicas. Essa tradução permitiu a criação de um esquema detalhado que pode ser implementado em um sistema de gerenciamento de banco de dados.
+
+
+## Tecnologias utilizadas
+
+- MySQL Workbench
+- GitHub
+
+### Autoria
+
+Kelly Lemos
+[LinkedIn](https://www.linkedin.com/in/kellycvlemos/)
+
+
+  
