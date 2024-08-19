@@ -53,4 +53,4 @@ Este projeto fornece uma visão detalhada da criminalidade em São Paulo e pode 
 ## Links
 
 - **Conjunto de Dados BigQuery:** https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1sprojeto-pratico-dados!2scrimes_sp
--**Relatório no Looker Studio:** https://lookerstudio.google.com/reporting/1bd8eb0c-a80c-484c-9272-2a89b0f68aaa
+- **Relatório no Looker Studio:** https://lookerstudio.google.com/reporting/1bd8eb0c-a80c-484c-9272-2a89b0f68aaa
